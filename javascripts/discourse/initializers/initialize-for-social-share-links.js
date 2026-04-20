@@ -33,8 +33,8 @@ export default {
               encodeURIComponent(title)
             );
           },
-          shouldOpenInPopup: true,
-          popupHeight: 265,
+          shouldOpenInPopup: (sections[4] || 1) > 0,
+          popupHeight: (1*sections[4]) || 265,
         });
       }
     });
