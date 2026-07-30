@@ -34,7 +34,7 @@ export default {
             );
           },
           shouldOpenInPopup: (sections[4] || 1) > 0,
-          popupHeight: (1*sections[4]) || 265,
+          popupHeight: 1 * sections[4] || 265,
         });
       }
     });
